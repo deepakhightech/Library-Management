@@ -1,0 +1,60 @@
+body {
+    height: 500px;
+    /* width: auto; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: gray; */
+    background-image:url('third.png');
+    background-size: 100%;
+    width: auto;
+}
+.container {
+    width: 60%;
+    margin-left: 400px;
+    /*margin: 0 auto; */
+    padding: 20px;
+    margin-top: -20px;
+
+}
+h1,h2 {
+    text-align: center; 
+    margin-right: 300px;
+}
+h1{
+    color: red;
+    font-size: 40px;
+}
+    label { color: yellow; 
+    font-size: 20px;
+    font-weight: 600;
+}
+    
+
+form {
+    margin-top: 60px;
+}
+input[type="text"], select {
+    width: 60%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing:content-box;
+    font-size: 16px;
+}
+input[type="submit"] {
+    background-color: #0dbd16;
+    color: white;
+    margin-left: 200px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+input[type="submit"]:hover {
+    background-color: #010e02;
+}
+.home{
+    justify-content: center;
+    color: rebeccapurple;
+}

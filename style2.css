@@ -1,0 +1,44 @@
+body
+{
+    background:rgb(162, 187, 192);
+    font-size:10px;
+    background:url('hacker-1.jpg');
+}
+table
+{
+    background:rgb(179, 117, 117);
+}
+h1,mark{
+    background-color: gray;
+    color:red;
+    font-size:25px;
+}
+tr{
+    font-size:20px;
+    font-weight: 100;
+    font-style: unset;
+}
+td{
+    color:rgb(21, 21, 55);
+    text-align: center;
+}
+
+.updtbtn,.dltbtn{
+    background:blue;
+    color:yellow;
+    outline:none;
+    border:0;
+    height:30px;
+    width:90px;
+    font-size:16px;
+    margin-left:10px;
+    border-radius:8px;
+    cursor: pointer;
+}
+.updtbtn:hover{
+    background-color:gray;
+    font-size:17px;
+}
+.dltbtn{
+    background:red;
+}
